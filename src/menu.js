@@ -6,10 +6,14 @@ function menu() {
   content.classList.add('menu');
   content.classList.add('page');
 
+  const header = document.createElement('h1');
+  header.textContent = 'Our Menu';
+
   let gaba = menuItem('Gabagool', "It's gabagool, what more could you want", 14.99, gabagool);
 
   let ziti = menuItem('Baked Ziti', "You've gotta try my wifes baked ziti. It's the best, I'm telling you.", 13.29, bakedziti);
 
+  content.appendChild(header);
   content.appendChild(gaba);
   content.appendChild(ziti);
 

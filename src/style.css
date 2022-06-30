@@ -10,6 +10,25 @@ body{
   margin: 0;
 }
 
+body{
+  background-color: skyblue;
+}
+
+.logo{
+  height: 100px;
+  width: 100%;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#logo-image{
+
+  width:400px;
+}
 
 .tabs{
   width: 100%;
@@ -17,12 +36,13 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
 }
 .tabs button{
+  background-color: lightcoral;
   width: 100%;
   border-style: none;
-  border-right: 1px solid skyblue;
-  border-left:  1px solid skyblue;;
+  border:  1px solid skyblue;;
   height: 100px;
   border-radius: 0px;
+  font-size: 32px;
 }
 
 .tabs button.selected{
@@ -39,6 +59,7 @@ body{
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 3fr;
   padding: 12px;
+  margin: 8px;
 }
 
 .item-name{
@@ -66,7 +87,6 @@ body{
 }
 
 .page-container{
-  background-color: skyblue;
   display: flex;
   justify-content: center;
   height: 100%;

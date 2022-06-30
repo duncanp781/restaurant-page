@@ -7,6 +7,11 @@ import './style.css';
 
 let currentDisplay = homepage();
 
+const logo = document.createElement('div');
+logo.textContent = 'Welcome to our Restaurant!';
+logo.classList.add('logo');
+
+
 const tabArea = document.createElement('div');
 tabArea.classList.add('tabs');
 
@@ -36,6 +41,8 @@ pageContainer.classList.add('page-container');
 let selected = mainButton;
 selected.classList.add('selected');
 
+
+document.body.appendChild(logo);
 document.body.appendChild(tabArea);
 document.body.appendChild(pageContainer)
 pageContainer.appendChild(currentDisplay);

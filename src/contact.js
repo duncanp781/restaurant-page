@@ -10,7 +10,7 @@ function contact(){
   header.textContent = 'Contact Us';
 
   const text = document.createElement('p');
-  text.textContent = 'You can reach us at the following coordinates: N:0.1678888324, W: 31.24326421';
+  text.textContent = 'You can reach us at the following coordinates: 37.2431° N, 115.7930° W';
 
   content.appendChild(header);
   content.appendChild(text);
